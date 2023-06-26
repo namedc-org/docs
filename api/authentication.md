@@ -14,7 +14,7 @@
 ```javascript
 const axios = require('axios');
 
-axios.get(`https://api.namedc.org/query/${username}`, {
+axios.get(`https://api.namedc.org/search?q=${username}`, {
     headers: {
         Authorization: `Bearer ${token}`
     }
@@ -33,7 +33,7 @@ axios.get(`https://api.namedc.org/query/${username}`, {
 ```javascript
 const fetch = require('node-fetch');
 
-fetch(`https://api.namedc.org/query/${username}`, {
+fetch(`https://api.namedc.org/search?q=${username}`, {
     headers: {
       Authorization: `Bearer ${token}`
     }
@@ -54,7 +54,7 @@ import requests
 username = 'your_username'
 token = 'your_token'
 
-url = f"https://api.namedc.org/query/{username}"
+url = f"https://api.namedc.org/search?q={username}"
 headers = {
     'Authorization': f'Bearer {token}'
 }
