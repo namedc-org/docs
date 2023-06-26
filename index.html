@@ -8,7 +8,9 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta charset="UTF-8">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
+  <link rel="icon" type="image/png" href="https://namedc.org/uploads/favicon.ico">
   <title>namedc - docs</title>
+  <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
@@ -17,11 +19,28 @@
     window.$docsify = {
       el: "#app",
       subMaxLevel: 2,
-      name: 'Home',
-      loadSidebar: true
+      loadSidebar: true,
+      executeScript: true,
+
+      pagination: {
+        previousText: "Previous page",
+        nextText: "Next page",
+        crossChapter: true,
+        crossChapterText: true,
+      },
+
+      copyCode: {
+        buttonText: 'Copy to clipboard',
+        errorText: 'Error',
+        successText: 'Copied'
+      }
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
 </body>
 
 </html>
