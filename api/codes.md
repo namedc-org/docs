@@ -34,6 +34,12 @@ Error code 404 means that we couldn't find your query.
 
 ![cute khat](https://http.cat/404)
 
+#### **400**
+
+Error code 400 means that the query value is invalid.
+
+![cute khat](https://http.cat/400)
+
 #### **200**
 
 Not an error code! Means the search succeed.
