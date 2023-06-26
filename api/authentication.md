@@ -69,6 +69,23 @@ else:
     print(response.text)
 ```
 
+#### **Output (200)**
+
+> The output should return:
+
+```json
+{
+	"name": "username",
+	"history": [
+		{
+			"userid": "user_id",
+			"addedAt": "added_time",
+		}
+	],
+	"__v": 40
+}
+```
+
 <!-- tabs:end -->
 
 > We are planning soon to release API wrappers in different language, if you would like to contribute you will be listed here with a credit.
@@ -141,4 +158,17 @@ else:
     print(response.text)
 ```
 
+#### **Output (200)**
+
+> The output should return:
+
+```json
+{
+	"queries": 993,
+	"__v": 0
+}
+```
 <!-- tabs:end -->
+
+
+
