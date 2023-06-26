@@ -1,4 +1,4 @@
-# HTTP codes
+# HTTP status codes
 
 > Here all the HTTP codes are listed and a little explanation, So make sure to read this instead of opening a ticket because you will be **forwarded to here**.
 
