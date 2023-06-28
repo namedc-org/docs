@@ -18,6 +18,8 @@
 
 > Please note that if you exceed over the rate limit or try to bypass it you will be immediately blacklisted from our service.
 
+> Our rate limit is 60 seconds.
+
 ---
 
 ### Prices
