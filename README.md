@@ -16,4 +16,12 @@ A Discord Username Database which stores records of users who owned a username.
 
 *__When you lookup a user ID our database automatically adds the username to our database__*
 
-![picture](https://media.discordapp.net/attachments/1122259004643606609/1122259818581872650/450-4500394_nametag-name-tag-minecraft-craft-hd-png-download.png?width=1197&height=675)
+---
+
+### Some of our sub domains:
+
+> https://namedc.org - Lookup site.
+
+> https://status.namedc.org/ - Status of the website, database, and docs.
+
+> https://docs.namedc.org/ - API Documentation.
