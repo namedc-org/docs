@@ -18,6 +18,12 @@ A Discord Username Database which stores records of users who owned a username.
 
 ---
 
+### Examples:
+
+> https://github.com/namedc-org/names-bot - An example Discord search bot.
+
+---
+
 ### Some of our sub domains:
 
 > https://namedc.org - Lookup site.
