@@ -6,7 +6,7 @@
 
 ### What is a wallet?
 
-> A wallet in our system holds your queries and simplifies your life.
+> A wallet is our system that holds your queries and simplifies your life.
 You can get information about your wallet on our Discord server by executing the command: /wallet info
 
 ---
