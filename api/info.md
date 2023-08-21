@@ -4,11 +4,17 @@
 
 ---
 
+### What is a wallet?
+
+> A wallet in our system holds your queries and simplifies your life.
+You can get information about your wallet on our Discord server by executing the command: /wallet info
+
+---
+
 ### How does it work?
 
-> You basically buy a key from our [autobuy](https://namedc.org/purchase) and get a key delivered to your email.
-> <br>After that you redeem it [here](https://namedc.org/redeem) and you get a token with the queries that you bought.
-> <br>Then you can proceed to the next page.
+> Join our Discord server and create a "[wallet](https://docs.namedc.org/#/./api/info?id=what-is-a-wallet)" by executing the command /wallet create.
+Then you can buy keys from our [autobuy](https://soon) and redeem them by executing /wallet redeem, and you're good to go.
 
 ---
 
@@ -31,5 +37,3 @@
 | 1k   | 1$   |
 | 2.5k   | 3$   |
 | 5k   | 6$   |
-
-> To purchase a plan head over to [our purchase endpoint](https://namedc.org/purchase) and pay with the autobuy.

@@ -14,7 +14,7 @@
 ```javascript
 const axios = require('axios');
 
-axios.get(`https://api.namedc.org/search?q=${username}`, {
+axios.get(`https://api.namedc.org/search?query=${username}`, {
     headers: {
         Authorization: `Bearer ${token}`
     }
@@ -33,7 +33,7 @@ axios.get(`https://api.namedc.org/search?q=${username}`, {
 ```javascript
 const fetch = require('node-fetch');
 
-fetch(`https://api.namedc.org/search?q=${username}`, {
+fetch(`https://api.namedc.org/search?query=${username}`, {
     headers: {
       Authorization: `Bearer ${token}`
     }
@@ -54,7 +54,7 @@ import requests
 username = 'your_username'
 token = 'your_token'
 
-url = f"https://api.namedc.org/search?q={username}"
+url = f"https://api.namedc.org/search?query={username}"
 headers = {
     'Authorization': f'Bearer {token}'
 }
@@ -75,14 +75,24 @@ else:
 
 ```json
 {
-	"name": "username",
-	"history": [
-		{
-			"userid": "user_id",
-			"addedAt": "added_time",
+	"id": String,
+	"userHistory": [{
+		"addedAt": String,
+		"User": {
+			"accent_color": String,
+			"avatar": String,
+			"avatar_decoration": String,
+			"banner": String,
+			"banner_color": String,
+			"discriminator": String,
+			"display_name": String,
+			"flags": Number,
+			"global_name": String,
+			"id": String,
+			"public_flags": Number,
+			"username": String
 		}
-	],
-	"__v": 40
+	}],
 }
 ```
 
@@ -164,8 +174,9 @@ else:
 
 ```json
 {
-	"queries": 993,
-	"__v": 0
+  "id": String,
+  "createdAt": String,
+  "queries": Number
 }
 ```
 <!-- tabs:end -->

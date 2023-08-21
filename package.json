@@ -1,0 +1,12 @@
+{
+  "name": "docs",
+  "description": "> [*__namedc.org__*](https://namedc.org) is an archive of discord username history,\r A Discord Username Database which stores records of users who owned a username.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
